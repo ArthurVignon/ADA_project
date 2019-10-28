@@ -7,17 +7,17 @@ Through this project, we aim to understand better how the different Swiss politi
 We will concentrate on the five or six biggest parties of the last elections and observe if there was any change in their communication over the years and if so, if it had a correlation with the results of the federal elections. In a last part we will also verify if the trend we could observe is the same on the referendums when a party advices their “followers” to decide in a certain manner.
 
 # Research questions
-What are the topics which are mainly addressed by each party and what is their sentiment about these topics?
-Do the parties change keywords in their speech over the years and in each language or communication medium?
-How does that change influence their result in federal elections?
-Does that change also affect the result of referendums and popular initiatives?
+- What are the topics which are mainly addressed by each party and what is their sentiment about these topics?
+- Do the parties change keywords in their speech over the years and in each language or communication medium?
+- How does that change influence their result in federal elections?
+- Does that change also affect the result of referendums and popular initiatives?
 
 # Dataset
 
 ##### Communication:
 https://www.media.bk.admin.ch/wahlen/fr/ : notice explicative élections 2019. These are the documents given to each household during the elections and have descriptions of each party for the 1995-2019 election cycles.
 
-https://developer.srgssr.ch/apis/srgssr-audio/docs This is the RTS API that provides the audio subtitles of their different programs. These subtitles can be analysed for data of when a political party talks about a subject, their sentiment and which medium (RTS, RSI, SWI, video, radio)
+https://developer.srgssr.ch/apis/srgssr-audio/docs This is the RTS API that provides the audio subtitles of their different programs. These subtitles can be analysed for data of when a political party talks about a subject, their sentiment and which medium (RTS, RSI, SWI, video, radio).
 
 https://www.icwsm.org/data/ For the Twitter and Facebook data of each political party’s official accounts in german and french.
 
