@@ -431,7 +431,7 @@ Grunder
 Duri
 Campell
 
-Parti évangélique chrétien (PEV/EVP) :
+### Parti évangélique chrétien (PEV/EVP) :
 
 Marianne
 Streiff-Feller
