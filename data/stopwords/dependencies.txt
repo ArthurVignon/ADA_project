@@ -1,0 +1,1 @@
+Stopwords-fr: https://github.com/stopwords-iso/stopwords-fr/blob/master/stopwords-fr.txt
