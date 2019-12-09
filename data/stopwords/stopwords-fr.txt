@@ -688,3 +688,6 @@ zut
 êtes
 être
 ô
+rt
+http
+https
