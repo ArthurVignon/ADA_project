@@ -48,4 +48,5 @@ Everyone worked on different parts of the website and the analysis.
 
 For the final presentation, we will work all together on the poster and the presentation, each doing the parts that they were responsible.
 
-# PS: What happens if you click on ADA...
+# What happens if you click on ADA at the footer...
+There is a hidden easter egg, PS: check out the Parti Socialiste WordCloud
