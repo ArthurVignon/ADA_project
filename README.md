@@ -1,14 +1,15 @@
 # Title
-How does the communication of the Swiss political parties influences the result of elections in Switzerland?
+A brief introduction to communication in Swiss Politics
 
 # Abstract
-Recently, the Swiss federal elections took place and led to a paradigm shift. Almost all the parties started talking about climate change and the two Swiss green parties increased considerably their numbers of representatives into the parliament. But there was also also a divide between the election trends of the french-speaking and german-speaking parts of Switzerland, the phenomenon that is commonly referred to the “Rostigraben” divide.
-Through this project, we aim to understand better how the different Swiss political parties communicate their ideas to the public i.e., what are the keywords they use the most, which media and language are they using and how these habits evolve over time.
-We concentrate on the six biggest parties of the last elections and observe if there was any change in their communication over the years and if so, if it had a correlation with the results of the federal elections.
+In October 2019, the **Swiss federal elections** took place and led to a huge paradigm shift. Almost all the parties started talking about climate change and the two Swiss green parties increased considerably their numbers of representatives into the parliament. This phenomenon has been called the *Green Wave*, and has been designated expression of the year in Romandy (french speaking part of Switzerland). Through this data story, we aim to better understand how the different **Swiss political parties** communicate their ideas to the public, e.g., what are the keywords and topics they address the most. We concentrate on the six largest parties of the last elections and observe if there is any **change in their communication over the years** and if so, if it has a relationship with the results of the federal elections.
 
 # Research questions
-- What are the topics which are mainly addressed by each party and what is their sentiment about these topics?
-- Do the parties change keywords in their speech over the years and in each language or communication medium?
+- What are the principal keywords used by each party?
+- Which parties have the most appearences of their representatives on RTS?
+- What are the topics which are mainly addressed by each party?
+- How close are two parties regarding their communication?
+- Do the parties change keywords in their speech over the years?
 - How does that change influence their result in federal elections?
 
 # Dataset
@@ -18,7 +19,7 @@ https://developer.srgssr.ch/apis/rts-archives-v3/docs This is the RTS API that p
 
 https://www.icwsm.org/data/ For the Twitter data of each political party’s official accounts and their most influent politicians in german and french.
 
-##### Results
+##### Results of the elections
 https://opendata.swiss/fr/dataset/eidg-wahlen-2015/resource/61317c2c-b49a-4842-b6e8-468d3fee694c : "Élections au Conseil national 2015"
 This dataset contains the details of federal elections of year 2015, including the strengths of each party in the different cantons.
 
@@ -31,17 +32,19 @@ This dataset contains the details of federal elections of year 2019, including t
 - We only consider the evolution of the communication from 2015 to 2019. There is a limit of tweets that we can get for each account, in consequence it is not possible to have old tweets for most of the parties. However, we think it is a good opportunity to only focus on one legislature. We will compare the results of the elections of 2015 to the ones of 2019 and understand what are the changes in the communication of the different parties during this period of time. We are pretty sure that we will get some interesting outcomes, because for instance it's only after 2015 that every party started talking about the environment and the green parties increased considerably their numbers of representatives into the parliament.
 - **All the operations done on the data are in the file** `main.ipynb`
 
-# A list of internal milestones up until project milestone 3 (Dec. 20)
-- Choose the most appropriate platform for our task (Nov. 27)
-- Classify the topics of the collected communications into main themes (immigration, environment etc.) (Nov. 30th)
-- Do sentiment analysis on the communication sources using a pretrained model to get a sense of the sentiment that the party or politician felt about a topic. (Dec. 3th)
-- Descriptive analysis with the NLP findings (Dec. 6th)
-- Make interesting and nice plots (Dec. 9th)
-- Start working on the platform (Dec. 12th)
-- Redaction of the data story (Dec. 14th)
-- Update README (Dec. 17th)
-- Clean everything (Dec. 20th)
+# Important updates and decisions after milestone 2
+- German was not suitable to the analysis we did. First, no one speaks well German in our group and second NLP on german is difficult (most words are composed ones).
+- The RTS dataset was not very useful. The NLP techniques were not really efficient on it but we still used it to identify the different topics using LDA topics detection.
+- **All the operations done on the data are in the file** `final_main.ipynb`
 
-# Questions for TAs
-  - We had the idea to try to train a classifier which could predict from which party a text could have been written. Even if the accuracy is not good, it could be interesting to do and to include it into our data story. Do you think it is feasible ?
-  - Do you think even without the Twitter data it would be interesting to look at earlier elections with only the RTS data for communication reference?
+# Contributions
+Everyone worked on different parts of the website and the analysis.
+
+Arthur: Wordclouds of the parties, I see dead topics, topics for each party, Green is the new black
+Deniz: Twitter dataset; Launch of the website; wordclouds of the parties, first rule of Swiss Politics, the usual suspects
+Isabelle: RTS dataset; Who's talking, I see dead topics
+Robin: Elections dataset; introduction, description of the parties, topics for each party, are politicians really all the same, trending topics, conclusion
+
+For the final presentation, we will work all together on the poster and the presentation, each doing the parts that they were responsible.
+
+# PS: What happens if you click on ADA...
