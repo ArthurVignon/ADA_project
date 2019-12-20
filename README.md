@@ -41,10 +41,10 @@ This dataset contains the details of federal elections of year 2019, including t
 # Contributions
 Everyone worked on different parts of the website and the analysis.
 
-* Arthur: Wordclouds of the parties, I see dead topics, topics for each party, Green is the new black
-* Deniz: Twitter dataset; Launch of the website; wordclouds of the parties, first rule of Swiss Politics, the usual suspects
-* Isabelle: RTS dataset; Who's talking, I see dead topics
-* Robin: Elections dataset; introduction, description of the parties, topics for each party, are politicians really all the same, trending topics, conclusion
+* **Arthur**: Wordclouds of the parties, I see dead topics, topics for each party, Green is the new black
+* **Deniz**: Twitter dataset; Launch of the website; wordclouds of the parties, first rule of Swiss Politics, the usual suspects
+* **Isabelle**: RTS dataset; Who's talking, I see dead topics
+* **Robin**: Elections dataset; introduction, description of the parties, topics for each party, are politicians really all the same, trending topics, conclusion
 
 For the final presentation, we will work all together on the poster and the presentation, each doing the parts that they were responsible.
 
