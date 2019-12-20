@@ -1,5 +1,5 @@
 # Title
-A brief introduction to communication in Swiss Politics
+A brief introduction to communication in Swiss Politics.
 
 # Abstract
 In October 2019, the **Swiss federal elections** took place and led to a huge paradigm shift. Almost all the parties started talking about climate change and the two Swiss green parties increased considerably their numbers of representatives into the parliament. This phenomenon has been called the *Green Wave*, and has been designated expression of the year in Romandy (french speaking part of Switzerland). Through this data story, we aim to better understand how the different **Swiss political parties** communicate their ideas to the public, e.g., what are the keywords and topics they address the most. We concentrate on the six largest parties of the last elections and observe if there is any **change in their communication over the years** and if so, if it has a relationship with the results of the federal elections.
@@ -36,14 +36,15 @@ This dataset contains the details of federal elections of year 2019, including t
 - German was not suitable to the analysis we did. First, no one speaks well German in our group and second NLP on german is difficult (most words are composed ones).
 - The RTS dataset was not very useful. The NLP techniques were not really efficient on it but we still used it to identify the different topics using LDA topics detection.
 - **All the operations done on the data are in the file** `final_main.ipynb`
+- **You can find our data story in following this link: https://alcarinn.github.io/**
 
 # Contributions
 Everyone worked on different parts of the website and the analysis.
 
-Arthur: Wordclouds of the parties, I see dead topics, topics for each party, Green is the new black
-Deniz: Twitter dataset; Launch of the website; wordclouds of the parties, first rule of Swiss Politics, the usual suspects
-Isabelle: RTS dataset; Who's talking, I see dead topics
-Robin: Elections dataset; introduction, description of the parties, topics for each party, are politicians really all the same, trending topics, conclusion
+* Arthur: Wordclouds of the parties, I see dead topics, topics for each party, Green is the new black
+* Deniz: Twitter dataset; Launch of the website; wordclouds of the parties, first rule of Swiss Politics, the usual suspects
+* Isabelle: RTS dataset; Who's talking, I see dead topics
+* Robin: Elections dataset; introduction, description of the parties, topics for each party, are politicians really all the same, trending topics, conclusion
 
 For the final presentation, we will work all together on the poster and the presentation, each doing the parts that they were responsible.
 
