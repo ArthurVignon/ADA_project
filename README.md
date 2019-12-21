@@ -34,7 +34,6 @@ This dataset contains the details of federal elections of year 2019, including t
 
 # Important updates and decisions after milestone 2
 - German was not suitable to the analysis we did. First, no one speaks well German in our group and second NLP on german is difficult (most words are composed ones).
-- The RTS dataset was not very useful. The NLP techniques were not really efficient on it but we still used it to identify the different topics using LDA topics detection.
 - **All the operations done on the data are in the file** `final_main.ipynb`
 - **You can find our data story in following this link: https://alcarinn.github.io/**
 
